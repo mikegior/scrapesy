@@ -1,0 +1,11 @@
+elasticsearch==7.10.1
+beautifulsoup4==4.6.0
+watchdog==2.1.9
+observer==0.1.0
+ldap3==2.5.1
+google-api-python-client==2.51.0
+google-auth-httplib2==0.0.4
+google-auth-oauthlib==0.4.2
+google-api-python-client==1.12.8
+configparser==5.0.2
+more-itertools==4.2.0

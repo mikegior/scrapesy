@@ -1,0 +1,13 @@
+[Unit]
+Description=Scrapesy Watchdog Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/scrapesy
+ExecStart=python3 /opt/scrapesy/scrapesy-wd.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
